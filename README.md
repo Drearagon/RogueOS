@@ -50,3 +50,12 @@ hardware requires them.
 
 ## License
 MIT
+
+Booting with QEMU (UEFI)
+Install OVMF and use this command to test UEFI boot locally:
+qemu-system-x86_64 -m 2G -enable-kvm
+-drive if=virtio,format=raw,file=out/rogueos-amd64-$(date +%Y%m%d).iso,media=cdrom
+-bios /usr/share/OVMF/OVMF_CODE.fd
+
+CI builds
+Every push and pull request builds the ISO in GitHub Actions and uploads it as an artifact under the Actions tab.
