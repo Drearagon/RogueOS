@@ -1,0 +1,9 @@
+# Networking and security tools
+network-manager
+net-tools
+iproute2
+iputils-ping
+traceroute
+nmap
+ufw
+fail2ban

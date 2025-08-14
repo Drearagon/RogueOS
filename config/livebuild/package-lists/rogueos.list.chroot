@@ -1,0 +1,65 @@
+# Core system packages
+linux-image-amd64
+systemd
+plymouth
+systemd-timesyncd
+sudo
+coreutils
+util-linux
+file
+pciutils
+usbutils
+lsb-release
+# XFCE minimal desktop packages
+xfce4
+xfce4-goodies
+lightdm
+pulseaudio
+pavucontrol
+xdg-utils
+xorg
+fonts-dejavu
+# Developer tools
+build-essential
+git
+curl
+wget
+unzip
+neovim
+tmux
+python3
+python3-pip
+nodejs
+npm
+docker.io
+docker-compose
+ripgrep
+fd-find
+htop
+btop
+fzf
+jq
+# Optional extras for gaming (uncomment to enable)
+# steam-installer
+# mangohud
+# gamemode
+# Firmware packages
+firmware-iwlwifi
+firmware-realtek
+firmware-amd-graphics
+firmware-intel-sound
+firmware-misc-nonfree
+# Media tools
+ffmpeg
+vlc
+# Networking and security tools
+network-manager
+net-tools
+iproute2
+iputils-ping
+traceroute
+nmap
+ufw
+fail2ban
+# Optional SSH server
+# openssh-server

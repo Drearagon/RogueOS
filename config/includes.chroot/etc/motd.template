@@ -1,0 +1,5 @@
+Welcome to RogueOS (build BUILD_DATE)
+
+Useful commands:
+  - install_to_disk.sh to install
+  - enable_persistence.sh to persist changes

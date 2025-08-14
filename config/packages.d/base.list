@@ -1,0 +1,12 @@
+# Core system packages
+linux-image-amd64
+systemd
+plymouth
+systemd-timesyncd
+sudo
+coreutils
+util-linux
+file
+pciutils
+usbutils
+lsb-release

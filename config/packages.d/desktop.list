@@ -1,0 +1,9 @@
+# XFCE minimal desktop packages
+xfce4
+xfce4-goodies
+lightdm
+pulseaudio
+pavucontrol
+xdg-utils
+xorg
+fonts-dejavu

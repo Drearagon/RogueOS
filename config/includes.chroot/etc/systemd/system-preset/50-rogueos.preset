@@ -1,0 +1,4 @@
+# Disable services on live system; they can be enabled after install
+disable ufw.service
+disable ssh.service
+disable fail2ban.service

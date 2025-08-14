@@ -1,0 +1,4 @@
+# Simple spinner and text
+text = Plymouth.Text(-1, -1, "RogueOS", 0xFFFFFFFF)
+spinner = Plymouth.Spinner()
+spinner.start()
