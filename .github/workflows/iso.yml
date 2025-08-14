@@ -11,7 +11,7 @@ jobs:
           sudo apt-get install -y live-build xorriso mtools
       - name: Build ISO
         run: |
-          ./build.sh
+          bash ./build.sh
       - name: Upload ISO artifact
         uses: actions/upload-artifact@v4
         with:

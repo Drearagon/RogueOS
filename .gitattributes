@@ -1,0 +1,10 @@
+text=auto eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.hook text eol=lf
+*.chroot text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.gz binary
+*.xz binary
