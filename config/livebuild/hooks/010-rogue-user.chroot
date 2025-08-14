@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+# Create default user 'rogue' and add to groups
+if ! id rogue >/dev/null 2>&1; then
+  adduser --disabled-password --gecos "Rogue User" rogue
+fi
+usermod -aG sudo,docker rogue
+# Set zsh as default shell for rogue
+chsh -s /usr/bin/zsh rogue
+# Root uses bash
+chsh -s /bin/bash root
+
+# Install oh-my-zsh for rogue
+su - rogue -c "git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh"
+
+# Enable NetworkManager
+systemctl enable NetworkManager.service

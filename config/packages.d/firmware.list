@@ -1,0 +1,6 @@
+# Firmware packages
+firmware-iwlwifi
+firmware-realtek
+firmware-amd-graphics
+firmware-intel-sound
+firmware-misc-nonfree

@@ -1,0 +1,7 @@
+# Simple GRUB theme for RogueOS
+title-text: "RogueOS"
+desktop-image: "logo.png"
+terminal-font: "Unifont"
+title-color: "white"
+message-color: "white"
+highlight-color: "light-gray"

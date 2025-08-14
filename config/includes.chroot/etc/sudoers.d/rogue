@@ -1,0 +1,2 @@
+# Allow passwordless sudo for live user
+rogue ALL=(ALL) NOPASSWD: ALL
