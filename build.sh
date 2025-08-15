@@ -17,7 +17,7 @@ if ! command -v lb >/dev/null 2>&1; then
 fi
 
 # Regenerate combined package list for live-build
-cat "$PACKAGES_DIR"/*.list > "$CONFIG_DIR/package-lists/rogueos.list.chroot"
+find "$PACKAGES_DIR" -name '*.list' -type f -print0 | xargs -0 cat > "$CONFIG_DIR/package-lists/rogueos.list.chroot"
 
 # Generate MOTD with build date
 TEMPLATE="$ROOT_DIR/config/includes.chroot/etc/motd.template"
